@@ -52,6 +52,8 @@ export const useSignInForm = () => {
       );
       form.reset();
       setLoading(false);
+
+      return;
     }
 
     router.push(constants.routes.OPERATION);
